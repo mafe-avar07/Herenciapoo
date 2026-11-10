@@ -1,0 +1,11 @@
+¿La salida coincide con la esperada? Sí
+
+¿Las clases hijas llaman a super()._init_()? Sí
+
+¿BoletoEstudiante usa super() para calcular el precio? Sí
+
+¿De qué clase heredó BoletoTerceraEdad y por qué?
+ De BoletoEstudiante, porque ya reutiliza gran parte del comportamiento relacionado con descuentos y demuestra mejor el concepto de herencia.
+
+Sugerencias de Copilot que rechazaron y por qué
+ Se rechazó crear atributos adicionales para almacenar descuentos porque la especificación no los solicita.
