@@ -1,0 +1,9 @@
+1. En cada ejercicio, ¿qué clase sobrescribe el cálculo reemplazándolo y cuál lo extiende con super()? 
+    Boletos: se reemplaza el cálculo en BoletoCortesia y se extiende con super(): BoletoEstudiante
+    Estacionamiento: Reemplaza el cálculo: EstanciaPension y se extiende el calculo super(): EstanciaNocturna
+2. ¿Por qué ninguna clase hija necesita escribir ticket()? 
+    Porque la clase padre ya tiene implementado el método ticket(), y las clases hijas lo heredan automáticamente.
+3. EstanciaPension no recibe horas en su constructor. ¿De dónde salen las 24 horas que aparecen en el ticket? 
+    Del constructor de EstanciaPension: super()._init_(placa, 24) y fijé ls horas en 24.
+4. Si mañana la tarifa por hora sube a $25, ¿cuántas líneas hay que cambiar en su código? ¿Por qué? 
+    return self.hras*25; en el método cobrar()  de la clase Estancia, porque las demás clases reutilizan ese cálculo mediante herencia y super():

@@ -1,0 +1,11 @@
+¿La salida coincide con la esperada? Sí
+
+¿Las clases hijas llaman a super().init()? Sí
+
+¿EstanciaNocturna usa super() para calcular el cobro? Sí
+
+¿En qué clase escribieron la validación y por qué?
+En Estancia, porque es la clase padre y así la validación se aplica automáticamente a todas las clases hijas sin duplicar código.
+
+Sugerencias de Copilot que rechazaron y por qué
+Se rechazó repetir la validación en cada clase hija porque duplicaría código y rompería el principio de reutilización.
